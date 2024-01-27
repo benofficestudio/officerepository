@@ -64,6 +64,10 @@ li a{
   padding: 0px;
 }
 
+a{
+  color: #000;
+}
+
 .grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
