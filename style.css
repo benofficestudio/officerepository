@@ -1,0 +1,239 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: #ddb5b5; */
+  background-color: seagreen;
+}
+
+#more {display: none;}
+
+h1 {
+  color: black;
+  font-family: "Helvetica";
+  font-weight: 500;
+  padding-left: 35px;
+  padding-bottom: 50px;
+  text-decoration: underline;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+
+.other {
+margin-top: 70px;
+font-family: "Helvetica";
+font-size: 22px;
+line-height: 28px;
+padding-left: 35px;
+text-transform: uppercase;
+position: absolute;
+  list-style-type: none;
+  color: #000;
+}
+
+#myBtn {
+  font-family: "Helvetica";
+  font-size: 22px;
+  text-transform: uppercase;
+  position: absolute;
+    list-style-type: none;
+    color: #000;
+  background: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+p{
+  font-size: 15px;
+  padding-top: 15px;
+  line-height: 18px;
+}
+
+a:hover{
+  color: white; 
+}
+
+li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.cell{
+  background-color: rgb(255, 255, 255);
+  
+  /* default-small devices */
+
+}[class*="col"]{
+  grid-column-end: span 12;
+}
+
+/* below 600px typically tablet */
+@media only screen and (max-width: 600px){
+
+      .sm1{
+        grid-column-end: span 12;
+      }
+      .sm2{
+        grid-column-end: span 6;
+      }
+      .sm3{
+        grid-column-end: span 4;
+      }
+      .sm4{
+        grid-column-end: span 3;
+      }
+      .sm6{
+        grid-column-end: span 2;
+      }
+      .sm12{
+        grid-column-end: span 1;
+      }
+  h1 {
+    font-size: 25px;
+    color: black;
+    font-family: "Helvetica";
+    font-weight: 500;
+    padding-left: 35px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    position: absolute;
+    text-transform: uppercase;
+  }
+
+  .other {
+  margin-top: 70px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 35px;
+  text-transform: uppercase;
+  position: absolute;
+    list-style-type: none;
+    color: #000;
+}
+  #myBtn {
+    font-family: "Helvetica";
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+      list-style-type: none;
+      color: #000;
+    background: none;
+    border: none;
+  }
+
+/* above 601px typically tablet */
+@media only screen and (min-width: 601px){
+
+      .md1{
+        grid-column-end: span 12;
+        
+      }
+      .md2{
+        grid-column-end: span 6;
+      }
+      .md3{
+        grid-column-end: span 4;
+      }
+      .md4{
+        grid-column-end: span 3;
+      }
+      .md6{
+        grid-column-end: span 2;
+      }
+      .md12{
+        grid-column-end: span 1;
+      }
+  h1 {
+    font-size: 25px;
+    color: black;
+    font-family: "Helvetica";
+    font-weight: 500;
+    padding-left: 35px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    position: absolute;
+    text-transform: uppercase;
+  }
+
+  .other {
+  margin-top: 70px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 35px;
+  text-transform: uppercase;
+  position: absolute;
+    list-style-type: none;
+    color: #000;
+  }
+  #myBtn {
+    font-family: "Helvetica";
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+      list-style-type: none;
+      color: #000;
+    background: none;
+    border: none;
+    padding-block: 0px;
+    padding-inline: 0px;
+    
+  }
+
+  /* above 1025px typically desktop */
+  @media only screen and (min-width: 1025px){
+
+      .col1{
+        grid-column-end: span 12;
+      }
+      .col2{
+        grid-column-end: span 6;
+      }
+      .col3{
+        grid-column-end: span 4;
+      }
+      .col4{
+        grid-column-end: span 3;
+      }
+      .col6{
+        grid-column-end: span 2;
+      }
+      .col12{
+        grid-column-end: span 1;
+      }
+    h1 {
+      color: black;
+      font-family: "Helvetica";
+      font-weight: 500;
+      padding-left: 35px;
+      padding-bottom: 50px;
+      text-decoration: underline;
+      position: absolute;
+      text-transform: uppercase;
+    }
+
+    .other {
+    margin-top: 70px;
+    font-family: "Helvetica";
+    font-size: 22px;
+    line-height: 28px;
+    padding-left: 35px;
+    text-transform: uppercase;
+    position: absolute;
+      list-style-type: none;
+      color: #000;
+      padding-block: 0px;
+      padding-inline: 0px;
+}
