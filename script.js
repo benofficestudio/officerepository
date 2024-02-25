@@ -13,3 +13,18 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+
+// // Get the h1 element
+// var title = document.getElementById('title');
+
+// // Add event listener for mouse hover
+// title.addEventListener('mouseover', function() {
+//   // Change the text to "office archive" on hover
+//   title.textContent = 'office archive';
+// });
+
+// // Add event listener for mouseout
+// title.addEventListener('mouseout', function() {
+//   // Change the text back to "office repository" when not hovering
+//   title.textContent = 'office repository';
+// });
