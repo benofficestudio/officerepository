@@ -13,6 +13,18 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+// Function to change the background color
+function changeBackgroundColor() {
+    // Get a random color
+    var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    // Set the background color of the body
+    document.body.style.backgroundColor = randomColor;
+}
+
+// Call the function when the page finishes loading
+window.onload = function() {
+    changeBackgroundColor();
+};
 
 // // Get the h1 element
 // var title = document.getElementById('title');

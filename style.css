@@ -3,28 +3,17 @@ html, body {
   width: 100%;
   overflow: hidden;
   /* background-color: #ddb5b5; */
-  background-color: seagreen;
+  /* background-color: mediumpurple; */
 }
 
 #more {display: none;}
 
-/* a[title]:hover::after {
-  content: attr(title);
-  color: black;
-  font-family: "Helvetica";
-  font-weight: 500;
-  padding-left: 35px;
-  padding-bottom: 50px;
-  text-decoration: underline;
-  position: absolute;
-  text-transform: uppercase;
-  cursor: pointer;
-} */
+
 
 h1 {
   color: black;
-  font-family: "Helvetica";
-  font-weight: 500;
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 400;
   padding-left: 35px;
   padding-bottom: 50px;
   text-decoration: underline;
@@ -36,7 +25,7 @@ h1 {
 
 .other {
 margin-top: 70px;
-font-family: "Helvetica";
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
 font-size: 22px;
 line-height: 28px;
 padding-left: 35px;
@@ -47,7 +36,7 @@ position: absolute;
 }
 
 #myBtn {
-  font-family: "Helvetica";
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-size: 22px;
   text-transform: uppercase;
   position: absolute;
@@ -64,6 +53,7 @@ p{
   font-size: 15px;
   padding-top: 15px;
   line-height: 18px;
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 a:hover{
