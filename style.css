@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   overflow: hidden;
   /* background-color: #ddb5b5; */
-  /* background-color: mediumpurple; */
+  background-color: white;
 }
 
 #more {display: none;}
@@ -11,7 +11,7 @@ html, body {
 
 
 h1 {
-  color: black;
+  /* color: blue; */
   font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 400;
   padding-left: 35px;
