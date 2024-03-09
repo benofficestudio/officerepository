@@ -56,9 +56,10 @@ p{
   font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
-a:hover{
-  color: white; 
-}
+/* a:hover{
+  color: blue;
+  text-decoration: underline;
+} */
 
 /* a:visited {
   color: green;
