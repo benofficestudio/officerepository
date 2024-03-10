@@ -14,6 +14,19 @@ function myFunction() {
   }
 }
 
+// Function to change the background color based on mouse position
+function changeBackgroundColor(event) {
+    // Calculate color values based on mouse position
+    var x = event.clientX;
+    var y = event.clientY;
+    var color = 'rgb(' + x % 255 + ',' + y % 255 + ',' + (x + y) % 255 + ')';
+    // Set the background color of the body
+    document.body.style.backgroundColor = color;
+}
+
+// Add event listener for mousemove event
+document.addEventListener('mousemove', changeBackgroundColor);
+
 // // Function to change the background color
 // function changeBackgroundColor() {
 //     // Get a random color

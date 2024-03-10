@@ -8,7 +8,11 @@ html, body {
 
 #more {display: none;}
 
-
+body{
+  transition: background-color 3s; /* Smooth transition effect */
+  height: 100vh; /* Set body height to full viewport height */
+  margin: 0; /* Remove default body margin */
+}
 
 h1 {
   /* color: blue; */
