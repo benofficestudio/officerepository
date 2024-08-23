@@ -25,17 +25,22 @@ function changeBackgroundColor() {
 // Change background color every 5 seconds
 setInterval(changeBackgroundColor, 4000);
 
-// Get the h1 element
-var title = document.getElementById('title');
+// Get the h1 element and link
+var titleLink = document.getElementById('titleLink');
 
 // Add event listener for mouse hover
-title.addEventListener('mouseover', function() {
+titleLink.addEventListener('mouseover', function() {
   // Change the text to "office archive" on hover
-  title.textContent = 'office archive';
+  titleLink.textContent = 'office archive';
+  // Update the link to the "office archive" event
+  titleLink.href = "https://benofficestudio.github.io/officearchive/";
 });
 
 // Add event listener for mouseout
-title.addEventListener('mouseout', function() {
+titleLink.addEventListener('mouseout', function() {
   // Change the text back to "office repository" when not hovering
-  title.textContent = 'office repository';
+  titleLink.textContent = 'office repository';
+  // Update the link back to the "office repository" (same link for simplicity)
+  titleLink.href = "https://benofficestudio.github.io/officearchive/";
 });
+
